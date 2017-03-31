@@ -1,0 +1,25 @@
+{
+  "name": "thiagomarini/not-tomorrow",
+  "description": "Library to calculate the next working day and list and check holiday dates.",
+  "keywords": [
+    "find",
+    "next",
+    "working",
+    "day",
+    "holiday"
+  ],
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Thiago Marini"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}
