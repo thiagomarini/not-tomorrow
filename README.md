@@ -5,6 +5,8 @@ PHP library to calculate the next working day. Handy if you work with delivery o
 
 You can also check if a given date is a holiday or if the next day is on weekend.
 
+Depends on [easter_days()](http://php.net/manual/en/function.easter-days.php)
+
 #### Relies on handlers to work
 
 Right now it can only calculate workdays for: 

@@ -27,7 +27,7 @@ jobs:
       - checkout
       - run:
           name: Install PHP Extensions
-          command: docker-php-ext-install pdo pdo_mysql zip
+          command: docker-php-ext-install pdo pdo_mysql zip calendar
       - run:
           name: Install Composer
           command: |
