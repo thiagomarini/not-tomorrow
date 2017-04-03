@@ -1,6 +1,6 @@
 <?php
 
-namespace NotTommorow\Handlers;
+namespace NotTomorrow\Handlers;
 
 
 class EnglandWhalesHolidays implements AnnualHolidays
