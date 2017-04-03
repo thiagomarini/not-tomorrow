@@ -1,5 +1,7 @@
 # not-tomorrow
 
+[![CircleCI](https://circleci.com/gh/thiagomarini/not-tomorrow.svg?style=svg)](https://circleci.com/gh/thiagomarini/not-tomorrow)
+
 #### What for?
 PHP library to calculate the next working day. Handy if you work with delivery only on weekdays.
 
