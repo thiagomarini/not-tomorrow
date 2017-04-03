@@ -7,9 +7,12 @@ PHP library to calculate the next working day. Handy if you work with delivery o
 
 You can also check if a given date is a holiday or if the next day is on weekend.
 
-Depends on [easter_days()](http://php.net/manual/en/function.easter-days.php)
+### Requirements
 
-#### Relies on handlers to work
+* PHP >= 7.0
+* Depends on [easter_days()](http://php.net/manual/en/function.easter-days.php)
+
+## Relies on handlers to work
 
 Right now it can only calculate workdays for: 
 
@@ -17,17 +20,25 @@ Right now it can only calculate workdays for:
 
 Feel free to contribute and send more handlers via pull requests. Handlers need to implement `AnnualHolidays` interface.
 
-#### Usage
+## Basic Usage
 
-`use NotTomorrow\Calendar`
+```php
+<?php
 
-Create a calendar class with a handler: `$calendar = new Calendar(new EnglandWhalesHolidays());`
+use NotTomorrow\Calendar;
 
-Check if next day of a given date is on weekend: `$calendar->isNextDayOnWeekend(new \DateTime('2017-04-01'))`
+// Create a calendar class with a handler
+$calendar = new Calendar(new EnglandWhalesHolidays());
 
-Check if a given date is a holiday: `$calendar->isHoliday(new \DateTime('2017-12-25'))`
+// Check if next day of a given date is on weekend 
+$calendar->isNextDayOnWeekend(new \DateTime('2017-04-01'));
 
-Find the next working day: `$calendar->findNextWorkingDay($friday)`
+// Check if a given date is a holiday
+$calendar->isHoliday(new \DateTime('2017-12-25'));
 
-#### License
+//Find the next working day
+$calendar->findNextWorkingDay($friday);
+```
+
+## License
 MIT
