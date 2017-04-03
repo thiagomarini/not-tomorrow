@@ -19,6 +19,8 @@ Feel free to contribute and send more handlers via pull requests. Handlers need 
 
 #### Usage
 
+`use NotTomorrow\Calendar`
+
 Create a calendar class with a handler: `$calendar = new Calendar(new EnglandWhalesHolidays());`
 
 Check if next day of a given date is on weekend: `$calendar->isNextDayOnWeekend(new \DateTime('2017-04-01'))`
