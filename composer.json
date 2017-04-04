@@ -1,7 +1,7 @@
 {
   "name": "thiagomarini/not-tomorrow",
   "version": "1.0.1",
-  "description": "Library to calculate the next working day and list and check holiday dates.",
+  "description": "PHP library to calculate the next working day. You can also check if a given date is a holiday or if the next day is on weekend.",
   "keywords": [
     "find",
     "next",
