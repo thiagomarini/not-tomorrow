@@ -1,6 +1,6 @@
 # not-tomorrow
 
-[![CircleCI](https://circleci.com/gh/thiagomarini/not-tomorrow.svg?style=svg)](https://circleci.com/gh/thiagomarini/not-tomorrow)
+[![CircleCI](https://circleci.com/gh/thiagomarini/not-tomorrow.svg?style=svg)](https://circleci.com/gh/thiagomarini/not-tomorrow) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 #### What for?
 PHP library to calculate the next working day. Handy if you work with delivery only on weekdays.
@@ -16,7 +16,7 @@ You can also check if a given date is a holiday or if the next day is on weekend
 
 Right now it can only calculate workdays for: 
 
-* England and Whales
+* England and Whales :gb:
 
 Feel free to contribute and send more handlers via pull requests. Handlers need to implement `AnnualHolidays` interface.
 
