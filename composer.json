@@ -1,6 +1,6 @@
 {
   "name": "thiagomarini/not-tomorrow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library to calculate the next working day and list and check holiday dates.",
   "keywords": [
     "find",
