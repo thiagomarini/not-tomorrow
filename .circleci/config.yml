@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - checkout
-
+      - run: docker-php-ext-install calendar
       - run: php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
       - run: php composer-setup.php
       - run: php -r "unlink('composer-setup.php');"
